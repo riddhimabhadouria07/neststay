@@ -1,0 +1,4 @@
+const roomFilter=$("#roomFilter"),priceFilter=$("#priceFilter"),availabilityFilter=$("#availabilityFilter");
+function filterRooms(){ $$(".filter-room").forEach(card=>{const type=roomFilter.value,price=priceFilter.value,av=availabilityFilter.value;let ok=(type==="all"||card.dataset.type===type)&&(price==="all"||(price==="6500"&&card.dataset.price==="6500")||(price==="8000"&&card.dataset.price==="8000"))&&(av==="all"||card.dataset.availability===av);card.style.display=ok?"":"none"})}
+[roomFilter,priceFilter,availabilityFilter].forEach(x=>x?.addEventListener("change",filterRooms));
+function calc(){const rent=+$("#calcRoom").value,months=+$("#calcDuration").value,extra=+$("#calcExtra").value;$("#calcTotal").textContent="₹"+((rent+extra)*months).toLocaleString("en-IN")}[$("#calcRoom"),$("#calcDuration"),$("#calcExtra")].forEach(x=>x?.addEventListener("change",calc));

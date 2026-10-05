@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NestStay PG — Your Comfortable Stay</title>
+  <meta name="description" content="Modern student accommodation with comfortable rooms, food, Wi-Fi, security and easy online booking.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <a class="brand" href="index.html"><span class="brand-mark"><i class="fa-solid fa-house"></i></span><span>NestStay <small>PG</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#rooms">Rooms</a><a href="#services">Services</a><a href="#food">Food</a><a href="#location">Location</a><a href="#contact">Contact</a>
+      <a href="login.html" class="login-link">Login</a>
+      <a href="registration.html" class="btn btn-primary nav-cta">Register Now</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-copy reveal">
+          <span class="eyebrow light"><i class="fa-solid fa-sparkles"></i> Premium Student Accommodation</span>
+          <h1>Find a place that <span>feels like home.</span></h1>
+          <p>Comfortable rooms, nutritious meals, high-speed Wi-Fi and everything you need for a stress-free student life.</p>
+          <div class="hero-actions">
+            <a href="rooms.html" class="btn btn-primary btn-lg">Book Your Room <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="registration.html" class="btn btn-light btn-lg">Register Now</a>
+          </div>
+          <div class="trust"><span class="avatars"><i class="fa-solid fa-user"></i><i class="fa-solid fa-user"></i><i class="fa-solid fa-user"></i></span><span><strong>248+ students</strong> trust NestStay</span><span class="rating">★ 4.9/5</span></div>
+        </div>
+        <div class="hero-float reveal">
+          <div class="floating-card availability-card">
+            <span class="status-dot green"></span>
+            <div><strong>18 Beds Available</strong><small>Updated just now</small></div>
+          </div>
+          <div class="floating-card mini-stat"><i class="fa-solid fa-shield-halved"></i><div><strong>24×7</strong><small>Security</small></div></div>
+          <div class="floating-card mini-stat"><i class="fa-solid fa-wifi"></i><div><strong>Fast</strong><small>Wi-Fi</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div class="stat-card"><span class="stat-icon"><i class="fa-solid fa-door-open"></i></span><div><strong class="counter" data-target="72">0</strong><span>+</span><p>Total Rooms</p></div></div>
+        <div class="stat-card"><span class="stat-icon"><i class="fa-solid fa-bed"></i></span><div><strong class="counter" data-target="18">0</strong><p>Available Beds</p></div></div>
+        <div class="stat-card"><span class="stat-icon"><i class="fa-solid fa-users"></i></span><div><strong class="counter" data-target="248">0</strong><span>+</span><p>Students Registered</p></div></div>
+        <div class="stat-card"><span class="stat-icon"><i class="fa-solid fa-star"></i></span><div><strong class="counter" data-target="12">0</strong><span>+</span><p>Facilities</p></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div class="image-stack reveal">
+          <img src="https://images.unsplash.com/photo-1560185127-6a8c4d9c4e3e?auto=format&fit=crop&w=1000&q=85" alt="Modern furnished bedroom">
+          <div class="experience-card"><strong>5+</strong><span>Years of trusted service</span></div>
+        </div>
+        <div class="section-copy reveal">
+          <span class="eyebrow">About NestStay</span>
+          <h2>More than just a room.</h2>
+          <p>We create a safe, comfortable and student-friendly environment where you can focus on your studies, build friendships and feel at home.</p>
+          <div class="check-list">
+            <div><i class="fa-solid fa-circle-check"></i> Fully furnished rooms</div>
+            <div><i class="fa-solid fa-circle-check"></i> Hygienic meals every day</div>
+            <div><i class="fa-solid fa-circle-check"></i> High-speed Wi-Fi</div>
+            <div><i class="fa-solid fa-circle-check"></i> Safe & secure environment</div>
+            <div><i class="fa-solid fa-circle-check"></i> Housekeeping & laundry</div>
+            <div><i class="fa-solid fa-circle-check"></i> Student-friendly community</div>
+          </div>
+          <a href="#services" class="text-link">Why choose us <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-bg" id="rooms">
+      <div class="container">
+        <div class="section-heading reveal"><div><span class="eyebrow">Rooms & Booking</span><h2>Choose your perfect room</h2></div><a href="rooms.html" class="text-link">View all rooms <i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="room-grid">
+          <article class="room-card reveal">
+            <div class="room-image"><img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=85" alt="2-seater room"><span class="availability available"><i class="fa-solid fa-circle"></i> Available</span></div>
+            <div class="room-body">
+              <div class="room-title"><div><h3>2-Seater Room</h3><p>Double sharing • Attached bathroom</p></div><strong>₹8,000<small>/month</small></strong></div>
+              <div class="room-features"><span><i class="fa-solid fa-wifi"></i> Wi-Fi</span><span><i class="fa-solid fa-chair"></i> Study table</span><span><i class="fa-solid fa-box"></i> Wardrobe</span><span><i class="fa-solid fa-snowflake"></i> AC/Cooler</span></div>
+              <div class="room-bottom"><span><b>4 beds</b> available</span><button class="btn btn-primary book-btn" data-room="2-Seater Room" data-price="8000">Book Now</button></div>
+            </div>
+          </article>
+          <article class="room-card reveal">
+            <div class="room-image"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85" alt="3-seater room"><span class="availability few"><i class="fa-solid fa-circle"></i> Few slots left</span></div>
+            <div class="room-body">
+              <div class="room-title"><div><h3>3-Seater Room</h3><p>Triple sharing • Attached bathroom</p></div><strong>₹6,500<small>/month</small></strong></div>
+              <div class="room-features"><span><i class="fa-solid fa-wifi"></i> Wi-Fi</span><span><i class="fa-solid fa-chair"></i> Study table</span><span><i class="fa-solid fa-box"></i> Wardrobe</span><span><i class="fa-solid fa-snowflake"></i> AC/Cooler</span></div>
+              <div class="room-bottom"><span><b>2 beds</b> available</span><button class="btn btn-primary book-btn" data-room="3-Seater Room" data-price="6500">Book Now</button></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading centered reveal"><span class="eyebrow">Facilities & Services</span><h2>Everything you need, under one roof.</h2><p>Designed around your comfort, safety and everyday routine.</p></div>
+        <div class="facility-grid">
+          <div class="facility-card reveal"><i class="fa-solid fa-wifi"></i><h3>High-Speed Wi-Fi</h3><p>Reliable internet for classes, projects and entertainment.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-shield-halved"></i><h3>24×7 Security</h3><p>Round-the-clock support for a safe living environment.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-video"></i><h3>CCTV</h3><p>Common areas monitored for added peace of mind.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-shirt"></i><h3>Laundry</h3><p>Convenient laundry support so you have one less thing to worry about.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-broom"></i><h3>Housekeeping</h3><p>Clean and hygienic shared spaces maintained regularly.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-droplet"></i><h3>RO Water</h3><p>Clean drinking water available throughout the day.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-bolt"></i><h3>Power Backup</h3><p>Backup electricity for essential services.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-car"></i><h3>Parking</h3><p>Dedicated parking space for residents.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-book-open"></i><h3>Study Area</h3><p>A focused space for assignments and exam preparation.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-snowflake"></i><h3>AC / Cooler</h3><p>Cooling options for a comfortable stay.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-utensils"></i><h3>Food / Mess</h3><p>Fresh breakfast, lunch, snacks and dinner.</p></div>
+          <div class="facility-card reveal"><i class="fa-solid fa-gamepad"></i><h3>Common Room</h3><p>Relax, socialize and unwind after classes.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-bg" id="food">
+      <div class="container">
+        <div class="section-heading reveal"><div><span class="eyebrow">Food & Mess</span><h2>Delicious meals, every day.</h2><p>Simple, filling and hygienic meals designed for student life.</p></div><div class="today-card" id="todayMenu"></div></div>
+        <div class="table-wrap reveal">
+          <table class="menu-table">
+            <thead><tr><th>Day</th><th>Breakfast</th><th>Lunch</th><th>Evening</th><th>Dinner</th></tr></thead>
+            <tbody id="menuTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="location">
+      <div class="container location-grid">
+        <div class="section-copy reveal"><span class="eyebrow">Location</span><h2>Close to what matters.</h2><p>Our sample location is designed around convenient access to colleges, transport, markets and daily essentials.</p><div class="address-box"><i class="fa-solid fa-location-dot"></i><div><strong>NestStay PG</strong><p>123, College Road, Indore, Madhya Pradesh, India</p></div></div><a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=College+Road+Indore+Madhya+Pradesh" target="_blank" rel="noopener">Get Directions <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+        <div class="map-placeholder reveal"><div class="map-grid"></div><div class="map-pin"><i class="fa-solid fa-location-dot"></i></div><div class="map-label"><strong>NestStay PG</strong><span>College Road, Indore</span></div></div>
+      </div>
+      <div class="container nearby-grid">
+        <div><i class="fa-solid fa-graduation-cap"></i><span>College<strong>1.2 km</strong></span></div><div><i class="fa-solid fa-bus"></i><span>Bus Stop<strong>500 m</strong></span></div><div><i class="fa-solid fa-train"></i><span>Railway Station<strong>4.5 km</strong></span></div><div><i class="fa-solid fa-bag-shopping"></i><span>Market<strong>800 m</strong></span></div><div><i class="fa-solid fa-hospital"></i><span>Hospital<strong>2 km</strong></span></div><div><i class="fa-solid fa-utensils"></i><span>Restaurants<strong>300 m</strong></span></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="section-copy reveal"><span class="eyebrow">Contact Us</span><h2>Have a question? Let's talk.</h2><p>Whether you want to visit, check availability or understand the registration process, we're happy to help.</p><div class="contact-items"><a href="tel:+919999999999"><i class="fa-solid fa-phone"></i><span>Call us<strong>+91 99999 99999</strong></span></a><a href="mailto:info@neststaypg.com"><i class="fa-solid fa-envelope"></i><span>Email us<strong>info@neststaypg.com</strong></span></a><div><i class="fa-solid fa-location-dot"></i><span>Visit us<strong>College Road, Indore</strong></span></div></div></div>
+        <form class="contact-form reveal" id="contactForm"><h3>Send us a message</h3><div class="form-row"><label>Name<input name="name" required placeholder="Your name"></label><label>Phone<input name="phone" required placeholder="+91"></label></div><label>Email<input type="email" name="email" required placeholder="you@example.com"></label><label>Message<textarea name="message" required rows="5" placeholder="How can we help?"></textarea></label><button class="btn btn-primary" type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button></form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="#home"><span class="brand-mark"><i class="fa-solid fa-house"></i></span><span>NestStay <small>PG</small></span></a><p>Your comfortable stay. Your second home.</p></div><div><h4>Quick Links</h4><a href="#about">About</a><a href="#rooms">Rooms</a><a href="#services">Services</a><a href="#food">Food</a></div><div><h4>Support</h4><a href="#contact">Contact</a><a href="login.html">Student Login</a><a href="admin.html">Admin</a><a href="#location">Location</a></div><div><h4>Connect</h4><div class="socials"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-facebook"></i></a><a href="https://wa.me/919999999999" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></div><p>© 2026 NestStay PG. All Rights Reserved.</p></div></div></footer>
+
+  <a class="whatsapp" href="https://wa.me/919999999999?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20room%20at%20NestStay%20PG." target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <a class="mobile-book" href="rooms.html">Book Your Room <i class="fa-solid fa-arrow-right"></i></a>
+
+  <div class="modal" id="bookingModal"><div class="modal-box"><button class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button><span class="eyebrow">Room Booking</span><h2 id="modalRoom">2-Seater Room</h2><p>You're one step away from your comfortable stay.</p><div class="modal-summary"><span>Monthly rent<strong id="modalPrice">₹8,000</strong></span><span>Availability<strong class="green-text">Available</strong></span></div><label>Move-in date<input type="date" id="moveInDate"></label><a id="continueBooking" class="btn btn-primary full-btn" href="registration.html">Continue to Registration <i class="fa-solid fa-arrow-right"></i></a></div></div>
+
+  <div class="toast" id="toast"><i class="fa-solid fa-circle-check"></i><span></span></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
